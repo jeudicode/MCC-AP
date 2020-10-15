@@ -1,0 +1,85 @@
+\documentclass[letterpaper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-tabla]{babel}
+\decimalpoint
+\usepackage{amsfonts}
+\usepackage{float}
+\usepackage{booktabs}
+
+%\usepackage{heuristica}
+%\usepackage[heuristica,vvarbb,bigdelims]{newtxmath}
+\usepackage{graphicx}
+\graphicspath{ {./} }
+
+\usepackage{libertinus}
+\usepackage[T1]{fontenc}
+
+\usepackage[margin=1.3in]{geometry}
+\usepackage{amsthm}
+\usepackage{marvosym}
+\usepackage{bm}
+
+\renewcommand\qedsymbol{\Squarepipe}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definición}[section]
+\newtheorem*{thm}{Teorema}
+
+
+\setlength\parindent{0pt}
+
+\newcounter{paragraphnumber}
+\newcommand{\para}{%
+  \vspace{10pt}\noindent{\bfseries\refstepcounter{paragraphnumber}\theparagraphnumber.\quad}%
+}
+
+%\setsecheadstyle{\large\bfseries}
+%\setsubsecheadstyle{\bfseries}
+
+\setlength\parindent{0pt}
+
+\pagenumbering{gobble}
+
+
+\usepackage{enumitem}
+\setlist{nosep}
+
+\usepackage{xcolor}
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks,
+  linkcolor={red!50!black},
+  citecolor={blue!50!black},
+  urlcolor={green!50!black}
+}
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+\begin{document}
+
+
+
+\begin{center}
+  {\large Aprendizaje Profundo}\\
+  \vspace{0.2cm}
+  {\large\bfseries Propuesta de artículo}\\
+  \vspace{0.2cm}
+  {\large PCIC - UNAM}\\
+  \vspace{0.5cm}
+  {\itshape 15 de octubre de 2020}\\
+  \vspace{0.5cm}
+  Diego de Jesús Isla López\\
+  Saúl Iván Rivas Vega\\
+  (\href{mailto:dislalopez@gmail.com}{\itshape dislalopez@gmail.com})\\
+  (\href{mailto:diego.isla@comunidad.unam.mx}{\itshape diego.isla@comunidad.unam.mx})\\
+\end{center}
+
+Se plantea la reproducción de los experimentos realizados en el artículo \textit{Counterpoint by convolution} de Huang et al \cite{DBLP:journals/corr/abs-1903-07227}, en el cual presentan COCONET, un modelo entrenado para reconstruir composiciones musicales parciales; dicho de otra manera, se intenta crear una forma de generación musical más cercana a la manera en la que las personas realizan obras musicales; esto es, componiendo extractos independientes para después unirlos, en lugar de un proceso lineal. La arquitectura utilizada en el proyecto es la llamada NADE, propuesta en \cite{DBLP:journals/corr/UriaCGML16} por Uria et al. Como trabajo adicional se propone utilizar un esquema similar a COCONET para realizar reconstrucciones de imágenes, como lo presentado en \cite{DBLP:journals/corr/abs-1802-05751}. 
+
+
+\bibliographystyle{plain}
+\bibliography{referencias}
+\end{document}
+

@@ -1,0 +1,21 @@
+\begin{thebibliography}{1}
+
+\bibitem{DBLP:journals/corr/abs-1903-07227}
+Cheng{-}Zhi~Anna Huang, Tim Cooijmans, Adam Roberts, Aaron~C. Courville, and
+  Douglas Eck.
+\newblock Counterpoint by convolution.
+\newblock {\em CoRR}, abs/1903.07227, 2019.
+
+\bibitem{DBLP:journals/corr/abs-1802-05751}
+Niki Parmar, Ashish Vaswani, Jakob Uszkoreit, Lukasz Kaiser, Noam Shazeer, and
+  Alexander Ku.
+\newblock Image transformer.
+\newblock {\em CoRR}, abs/1802.05751, 2018.
+
+\bibitem{DBLP:journals/corr/UriaCGML16}
+Benigno Uria, Marc{-}Alexandre C{\^{o}}t{\'{e}}, Karol Gregor, Iain Murray, and
+  Hugo Larochelle.
+\newblock Neural autoregressive distribution estimation.
+\newblock {\em CoRR}, abs/1605.02226, 2016.
+
+\end{thebibliography}
